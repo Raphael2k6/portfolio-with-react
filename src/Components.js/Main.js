@@ -6,7 +6,9 @@ const Main = () => {
         <div>
             <div className="container">
                 <div className="content">
-                    <img className="photo" src={require("../Components.js/img.jpg")} alt="A photograph of a man in an office."/>
+                <div>
+                    <img className="photo dib br10 pa3 ma2 grow bw2" src={require("../Components.js/img.jpg")} alt="A photograph of a man in an office."/>
+                </div>
                     <p className=" animated bounce large-text">Raphael Donanu</p>
                     <div>
                         <a href="https://linkedin.com/in/raphael-donanu" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>

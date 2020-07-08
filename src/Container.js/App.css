@@ -97,6 +97,8 @@
     font-size: 5rem;
 }
 
+
+
 .about-me {
   color: var(--text);
   background-color: var(--darkBackground);
@@ -130,7 +132,7 @@
   margin-left: 0.3125rem;
   border-radius: 0.625rem;
   border: 1px solid var(--mainColor);
-  background-color: var(--darkBackground);
+  background-color: var(--text);
 }
 
 .btn--color {
@@ -221,4 +223,11 @@ footer {
     .about-me {
       padding: 50px 70px;
     }
+}
+
+@media only screen and (min-width: 500px) {
+  .scroll {
+    overflow-y: scroll;
+    height: 660px;
+  }
 }

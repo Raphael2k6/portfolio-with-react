@@ -7,7 +7,7 @@ const About = () => {
             <div className="about-me">
                 <div> 
                     <h1 id="about">About me</h1>
-                    <p>My name is Raphael Donanu, I am a front-end engineer based in Lagos, Nigeria. I work in a team of experienced engineers at a large E-commerce firm and employ modern technologies, tools and best practices to profer 
+                    <p className='dib grow bw2'>My name is Raphael Donanu, I am a front-end engineer based in Lagos, Nigeria. I work in a team of experienced engineers at a large E-commerce firm and employ modern technologies, tools and best practices to profer 
                     business solutions. I am creative, innovative, and a good team player. 
                     I have experience working with technologies such as Javascript, React, next.js and Node.js with a good knowledge of databases.
                     I enjoy solving problems and creating business solutions, which may be anything from basic websites to rich interactive web applications. 
