@@ -10,7 +10,10 @@
   --font1: Ringside Regular A, Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
   --font: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
-   
+*{
+  scroll-behavior: smooth;
+}
+
    .nav {
     box-sizing: border-box;
     display: flex;
@@ -56,13 +59,21 @@
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.8s ease 0s
+    transition: all 0.9s ease 0s
   }
   
   button:hover {
     background-color: transparent;
-  color: var(--contactBtnHover);
-  border: 1px solid var(--mainWhite);
+    color: var(--contactBtnHover);
+    border: 1px solid var(--mainWhite);
+  }
+
+  #section1 {
+    height: 250px;
+  }
+
+  #section2 {
+    height: 250px;
   }
   
   .container {
@@ -97,8 +108,6 @@
     font-size: 5rem;
 }
 
-
-
 .about-me {
   color: var(--text);
   background-color: var(--darkBackground);
@@ -108,12 +117,13 @@
   font-size: 1rem;
   line-height: 30px;
   font-family: var(--font);
+  scroll-behavior: smooth;
 }
 
 .contact {
   color: var(--text);
   background-color: var(--darkBackground);
-  padding: 20px 2px;
+  padding: 15px 2px;
   margin: auto;
   text-align: left;
   font-family: var(--font);
@@ -223,7 +233,11 @@ footer {
     .about-me {
       padding: 50px 70px;
     }
+    #section1 {
+      height: 600px;
+    }
 }
+
 
 @media only screen and (min-width: 500px) {
   .scroll {

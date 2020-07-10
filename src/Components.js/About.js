@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <div className="about-me">
-                <div> 
+                <div id="section1"> 
                     <h1 id="about">About me</h1>
                     <p className='dib grow bw2'>My name is Raphael Donanu, I am a front-end engineer based in Lagos, Nigeria. I work in a team of experienced engineers at a large E-commerce firm and employ modern technologies, tools and best practices to profer 
                     business solutions. I am creative, innovative, and a good team player. 
@@ -14,7 +14,7 @@ const About = () => {
                     If you seek that web presence for your business or you are an employer looking to hire, you can get in touch with me.
                     </p>   
                 </div>
-            <div className="contact">
+            <div className="contact" id="section2">
                 <div className="contact-icons">
                     <h1 id="contact">Contact Me</h1>
                     <h5><i className="fas fa-envelope-square"></i> raphaeldonanu@gmail.com </h5>
